@@ -2,6 +2,12 @@
 console.group("opgave 1");
 
 
+const Fruit = {
+  items: ["Æble", "Banan", "Appelsin", "Pære", "Mango"]
+};
+
+console.log(Fruit);
+
 
 console.groupEnd();
 
