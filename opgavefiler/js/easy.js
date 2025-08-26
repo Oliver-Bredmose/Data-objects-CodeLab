@@ -24,6 +24,12 @@ console.groupEnd();
 /* opgave 3 */
 console.group("opgave 3");
 
+console.log(person.name);
+console.log(person.age);
+console.log(person.job);
 
+delete person.age;
+
+console.log(person);
 
 console.groupEnd();
