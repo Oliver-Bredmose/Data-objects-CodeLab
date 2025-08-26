@@ -8,7 +8,10 @@ const Fruit = {
 
 console.log(Fruit);
 
-
+delete Fruit = {
+    items: ["Æble", "Banan", "Appelsin", "Pære", "Mango"]
+    
+}
 console.groupEnd();
 
 
